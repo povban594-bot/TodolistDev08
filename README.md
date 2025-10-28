@@ -6,7 +6,7 @@ todo app implemented with plain HTML, CSS and JavaScript and svae in localstorag
 - Delete individual tasks
 - Delete all tasks (with confirmation)
 - Search tasks (live filter)
-- coutn Task
+- count Task
 - save and update localstorage
 ## update todo
   - make space  search with clear and add btn
