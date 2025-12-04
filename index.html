@@ -1,41 +1,43 @@
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TODO LIST</title>
   <link rel="stylesheet" href="/src/style.ccs/style.css" />
 </head>
+
 <body>
   <div class="container " id="app">
     <div class="search-row" role="search">
-    <label for="search"  style="position:absolute;left:-9999px;">Search</label>
-    <input id="search" type="search" placeholder="Search items..." />
-    <button id="clearBtn" aria-label="Clear search">Clear</button>
-  </div>
+      <label for="search" style="position:absolute;left:-9999px;">Search</label>
+      <input id="search" type="search" placeholder="Search items..." />
+      <button id="clearBtn" aria-label="Clear search">Clear</button>
+    </div>
 
     <div class="add-item">
-      <input type="text" id="task-input" placeholder="Add Item"  />
-      <button id="add-btn">Add  </button>
+      <input type="text" id="task-input" placeholder="Add Item" />
+      <button id="add-btn">Add </button>
     </div>
 
     <div class="todo-section">
       <h3>TO DO</h3>
       <ul id="todo-list"></ul>
     </div>
-     <hr>
+    <hr>
     <div>
       <h3>COMPLETED</h3>
       <ul id="completed-list"></ul>
     </div>
     <hr>
-    <div class ="counter-container">
+    <div class="counter-container">
       <p><span id="taskCount">0</span> items total</p>
-      <button id ="deleteButton">delete all</button>
+      <button id="deleteButton">delete all</button>
     </div>
   </div>
 
-  <script src="/src/javascript/script.js"></script>
+  <script src="./src/javascript/script.js"></script>
 </body>
+
 </html>
